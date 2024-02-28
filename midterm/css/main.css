@@ -1,0 +1,35 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(96, 209, 209);
+    background-image: url(image/lone-starfish-wide.jpg);
+}
+header{
+    font-family: 'Times New Roman';
+    color: white;
+    text-align: center;
+    background-image: url(image/lone-starfish-wide.jpg);
+}
+img  {
+    width: 200px;
+    float: left;
+}
+nav li{
+    display: inline;
+    border-right: 1px solid #333;
+    margin: 20px;
+   text-align: center;
+   font-size: xx-large;
+}
+.form{
+
+    padding: 10px;
+    border: 1.5px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+}
+footer{
+    text-align: right;
+}
