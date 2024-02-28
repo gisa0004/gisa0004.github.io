@@ -3,11 +3,11 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(153, 174, 167);
+    background-color: rgb(143, 222, 195);
     margin: 1rem;
 }
 .wrapper{
-    background-color: rgb(207, 218, 213);
+    background-color: rgb(191, 238, 235);
     width: 600px;
     margin: auto;
 }
