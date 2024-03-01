@@ -6,6 +6,9 @@ body{
     background-color: rgb(143, 222, 195);
     margin: 1rem;
 }
+main{
+    margin: 10px;
+}
 .wrapper{
     background-color: rgb(191, 238, 235);
     width: 600px;
@@ -36,7 +39,7 @@ nav li{
     border-right: 1px solid #333;
     text-align: center;
    font-size: x-large;
-   width: 180px;
+   width: 160px;
 }
 nav li:last-child{
     border-right: none;
@@ -68,5 +71,5 @@ textarea{
 }
 footer{
     text-align: right;
-    font-size: small;
+    font-size: x-small ;
 }
