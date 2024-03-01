@@ -30,9 +30,10 @@ header img{
     max-width: 900px;
     margin: 0 auto;
 }
-img  {
+main img  {
     width: 200px;
     float: left;
+    margin-right: 10px;
 }
 nav li{
     display: inline-block;
