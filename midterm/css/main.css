@@ -45,7 +45,7 @@ nav li:last-child{
 
     padding: 10px;
     border: 1.5px solid black;
-    margin: 20px;
+    margin: 10px;
     box-sizing: border-box;
 }
 input[type=text]{
