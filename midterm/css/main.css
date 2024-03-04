@@ -1,19 +1,24 @@
+/* this is to set the main font size for the web. */
 html{
     font-size: 16px;
 }
+/* apply a background color,margin,and font type to the body of the web site. */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(143, 222, 195);
     margin: 1rem;
 }
+/* giving a margin to the content in the main tag but not the whole body */
 main{
     margin: 10px;
 }
+/* wrapper class is used to create a box for content within the body tag. */
 .wrapper{
     background-color: rgb(191, 238, 235);
     width: 600px;
     margin: auto;
 }
+/* styling the header /title of the website. */
 header h1{
     font-size: 45px;
     font-family: 'Times New Roman';
@@ -22,19 +27,23 @@ header h1{
     left: 200px;
     top: 90px;
 }
+/* sizing the header image without affecting the other image */
 header img{
     width: 600px;
 }
+/* positioning the header image and title to sit the box created by the wrapper class.  */
 .heading{
     position: relative;
     max-width: 900px;
     margin: 0 auto;
 }
+/* sizing the image and make the paragraphs float to the left of the image in the paragraph. */
 main img  {
     width: 200px;
     float: left;
     margin-right: 10px;
 }
+/* styling the navigation bar */
 nav li{
     display: inline-block;
     border-right: 1px solid #333;
@@ -42,9 +51,11 @@ nav li{
    font-size: x-large;
    width: 160px;
 }
+/* remove the boader line on the far right */
 nav li:last-child{
     border-right: none;
 }
+/* create the box around the form section */
 .form{
 
     padding: 10px;
@@ -52,6 +63,7 @@ nav li:last-child{
     margin: 10px;
     box-sizing: border-box;
 }
+/* resize the form input bar/box */
 input[type=text]{
     width: 100%;
 }
@@ -70,6 +82,7 @@ textarea{
     box-sizing: border-box;
     resize: none;
 }
+/* reposition and resize the copyright logo. */
 footer{
     text-align: right;
     font-size: x-small ;
