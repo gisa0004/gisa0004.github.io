@@ -22,10 +22,10 @@ nav ul{
 }
 .banner  {
     color: white;
-    background-color:black ;
+    background-color:rgba(0, 0, 0, 0.589) ;
 }
 .about{
-    background-color: rgb(247, 201, 145);
+    background-color: rgba(240, 206, 127, 0.859);
 }
 .services{
     background-color: rgb(247, 201, 145);
