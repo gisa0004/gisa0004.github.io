@@ -49,6 +49,7 @@ body{
 .container{
     margin: auto;
     padding: 10px;
+    max-width: 760px;
 }
 nav ul{
     list-style: none ;
@@ -61,17 +62,23 @@ nav ul{
 nav ul li{
     padding: 20px;
 }
+p{
+    margin: 10px;
+}
 h1{
     font-weight: bold;
     font-size: xx-large;
+    margin: 10px;
 }
 h2{
     font-weight: bold;
     font-size: xx-large;
+    margin: 10px;
 }
 h3{
     font-weight: bold;
     font-size:medium;
+    margin: 10px;
 }
 .header{
     background-color: black;
@@ -115,6 +122,9 @@ input{
     background-color: #ffe6ac;
     margin-bottom: 15px;
     padding-bottom: 20px;
+}
+.about p{
+    margin-right: 10px;
 }
 .about img{
     width: 100%;
@@ -322,17 +332,66 @@ footer{
    .about img{
     width: 250px;
     float: left;
-    padding:auto;
-   } 
+    padding:10px;
+    margin: 30px;
+    } 
    .services{
     display: grid;
     gap: 15px;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-areas: 
+    "h2 h2 h2 h2 h2 h2"
+    "dt dt dt mk mk mk"
+    "vp vp wd wd pr pr"
+    ;
    }
-   .digital{
-    grid-column: span 2;
+
+   .services > div:nth-child(1) {
+    grid-area: h2;
    }
-   .marketing{
-    grid-column: span 2;
+
+   .services > div:nth-child(2) {
+    grid-area: dt;
+   }
+
+    .services > div:nth-child(3) {
+        grid-area: mk;
+    }
+
+    .services > div:nth-child(4) {
+        grid-area: vp;
+    }
+
+    .services > div:nth-child(5) {
+        grid-area: wd;
+    }
+
+    .services > div:nth-child(6) {
+        grid-area: pr;
+    }
+
+   .welcome{
+    margin: 20px;
+   }
+
+   .contact {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-areas: 
+    "fm fm tl tl"
+    ". . tl tl"
+    "lt lt it it";
+   }
+
+   .contact > div:nth-child(1) {
+    grid-area: fm;
+   }
+
+   .contact > div:nth-child(2) {
+    grid-area: tl;
+   }
+
+   .contact > div:nth-child(3) {
+    grid-area: lt;
    }
 }
