@@ -45,8 +45,6 @@ html{
 }
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.5rem;
-
 }
 .container{
     margin: auto;
@@ -55,68 +53,100 @@ body{
 nav ul{
     list-style: none ;
     text-align: center;
-    color: rgb(212, 164, 6);
-    font-size: 1.5rem;
+    background-color:black;
+    color: #c78c06;
+    font-size: 25px;
+    padding: 30px;
+}
+nav ul li{
+    padding: 20px;
+}
+h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+h2{
+    font-weight: bold;
+    font-size: xx-large;
+}
+h3{
+    font-weight: bold;
+    font-size:medium;
 }
 .header{
     background-color: black;
     margin: auto;
     ;
 }
-.banner  {
-    color: rgb(30, 27, 27);
-    background-color:rgb(212, 164, 6);
+.banner{
+    background-image: url(../images/main-banner.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
     background-size: contain;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    position: relative;
     background-repeat: no-repeat;
 }
-.banner > h1{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.608);
-}
-.banner > p{
-    background-color: rgba(0, 0, 0, 0.608);
-    color: white;
-}
+
 .banner button{
     padding: 15px;
     margin: 15px;
-    background-color:rgb(212, 164, 6);
+    background-color:#c78c06;
     color: white;
     font-size: large;
 }
-.banner img{
-    width: 100%
-    
+.welcome{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
 }
+svg{
+    width: 25px;
+    height: fit-content;
+}
+
 input{
-    width: 91%;
+    width: 94%;
     padding: 5px;
 }
 .about{
-    background-color: rgba(240, 206, 127, 0.859);
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .about img{
     width: 100%;
+    padding-bottom: 15px;
 }
-.services{
-    background-color: rgb(247, 201, 145);
-
+.digital{
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
-.services button{
+.digital button{
     padding: 15px;
     margin: 15px;
     background-color: black;
     color: white;
     font-size: large;
     width: fit-content;
-
 }
-.services img{
+.digital img{
     width: 100%;
+    padding-bottom: 15px;
+}
+.digital > h1  {
+    margin: 10px;
+}
+.digital > p  {
+    margin: 10px;
 }
 .marketing{
-    background-color: rgb(247, 201, 145);
-
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .marketing button{
     padding: 15px;
@@ -124,13 +154,20 @@ input{
     background-color: black;
     color: white;
     font-size: large;
-
+}
+.marketing > h1  {
+    margin: 10px;
+}
+.marketing > p  {
+    margin: 10px;
 }
 .marketing img{
     width: 100%;
 }
 .video{
-    background-color: rgb(247, 201, 145);
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 
 }
 .video button{
@@ -144,9 +181,16 @@ input{
 .video img{
     width: 100%;
 }
+.video > h1  {
+    margin: 10px;
+}
+.video > p  {
+    margin: 10px;
+}
 .web{
-    background-color: rgb(247, 201, 145);
-
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .web button{
     padding: 15px;
@@ -159,8 +203,16 @@ input{
 .web img{
     width: 100%;
 }
+.web > h1  {
+    margin: 10px;
+}
+.web > p  {
+    margin: 10px;
+}
 .print{
-    background-color: rgb(247, 201, 145);
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .print button{
     padding: 25px;
@@ -173,30 +225,78 @@ input{
 .print img{
     width: 100%;
 }
+.print > h1  {
+    margin: 10px;
+}
+.print > p  {
+    margin: 10px;
+}
 .vision{
+    background-image: url(../images/vision.jpg);
     color: white;
     background-size:cover;
     background-repeat: no-repeat ;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .vision button{
     padding: 15px;
     margin: 15px;
     background-color:navy ;
+    height: auto;
 }
 .vision img{
     width: 100%;
+    position: relative;
+}
+.vision > h1  {
+    margin: 10px;
+}
+.vision > p  {
+    margin: 10px;
 }
 .john {
-    background-color: rgb(247, 201, 145);
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+
+}
+.john > h1 > h3 >p {
+    padding: 15px;
 }
 .john img{
     width: 100%;
 }
+.john > h1  {
+    margin: 10px;
+}
+.john > h3  {
+    margin: 10px;
+}
+.john > p  {
+    margin: 10px;
+}
+hr{
+    background-color:#c78c06;
+    width: 665px;;
+    padding: 1px;
+}
 .bob {
-    background-color: rgb(247, 201, 145);
+   background-color: #ffe6ac;
+   margin-bottom: 15px;
+   padding-bottom: 20px;
 }
 .bob img{
     width: 100%;
+}
+.bob > h1  {
+    margin: 10px;
+}
+.bob > h3  {
+    margin: 10px;
+}
+.bob > p  {
+    margin: 10px;
 }
 table{
     border-collapse: collapse;
@@ -208,11 +308,31 @@ td,th{
     padding: 9px;
 }
 th{
-    background-color:rgb(247, 201, 145);
+    background-color: #ffe6ac;
 }
 footer{
-    color: rgb(212, 164, 6);
+    color: #c78c06;
+    background-color: #ffe6ac;
     background-color: black;
     font-size: 1rem;
     padding: 10px;
+    width: 100%;
+}
+@media screen and (min-width:1200px){
+   .about img{
+    width: 250px;
+    float: left;
+    padding:auto;
+   } 
+   .services{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(4, 1fr);
+   }
+   .digital{
+    grid-column: span 2;
+   }
+   .marketing{
+    grid-column: span 2;
+   }
 }
